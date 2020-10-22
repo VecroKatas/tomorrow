@@ -1,0 +1,94 @@
+body, html{
+	margin: 0;
+}
+
+td>a{
+    font-size: large;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+table{
+    padding-right: 50px;
+}
+
+.header{
+    height: 450px;
+	background-image: url(background.jpg);
+}
+
+.logo{
+    padding-right: 650px;
+    color: chocolate;
+    font-size: xx-large;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.theme{
+    color: white;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 50px;
+    font-family: 'Arial Narrow';
+}
+
+
+.wrapper{
+	max-width: 100%;
+	margin:0 auto;
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+hr.big{
+    width: 400px;
+    background-color: chocolate;
+    border:none;
+    height: 2px;
+}
+
+p.bla{
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+
+button{
+    color: chocolate;
+    border-color: chocolate;
+    background-color: transparent;
+}
+
+.about{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Arial Narrow';
+}
+
+hr.small{
+    width: 50px;
+    background-color: chocolate;
+    border:none;
+    height: 2px;
+}
+
+span.under_about{
+    font-size: smaller;
+    font-style: oblique;
+}
+
+.design{
+    color: chocolate;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Arial Narrow';
+}
